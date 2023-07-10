@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* start header section  style  */
+.main_banner {
+
+    background-color: #fdeef1;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_info {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.banner_info h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    text-align: left;
+
+}
+
+.banner_info p {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.button_sty {
+    padding: 15px 20px;
+    background-color: #E55473;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    color: white;
+}
+
+.banner_img {
+
+    margin-top: auto;
+
+}
+
+/* end  header section  style  */
+/*------------------------------
+featured_flowers style  start
+---------------------------------   */
+.featured_flowers>h1,
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.featured_products {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.featured_product {
+    height: 400px;
+    width: 400px;
+    background-color: #F2DEE7;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.red_bg {
+    background-color: #DAEFF1;
+}
+
+.yellow_bg {
+    background-color: #E3ECDB;
+}
+
+.featured_product img {
+
+    height: 350px;
+    width: 300px;
+    padding-top: 50px;
+
+}
+
+.folors_name {
+    text-align: center;
+    margin-top: 5px;
+
+
+}
+
+.folors_name h3 {
+    width: 50%;
+    margin: auto;
+    border-bottom: 3px solid black;
+
+
+}
+
+/*-------------------------------------
+featured_flowers style  end  
+---------------------------------------- */
