@@ -182,9 +182,98 @@ featured_flowers style  end
 
 .hot_deal>img {
     margin-right: 50px;
-    margin-top: 20px;
+    padding: 15px;
 }
 
 /* -----------------
  Hot Deal style end
  -------------------  */
+/* Instagram style  start  */
+.Instagram_all {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.instagram_images {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 30px;
+
+
+}
+
+.instagram_images img {
+    padding: 10px;
+    border-radius: 10px;
+
+
+
+}
+
+/* Instagram style  END  */
+
+/*----------------------------
+ Latest Deals style  start
+ ------------------------------  */
+
+
+.Latest_Deals {
+    height: 350px;
+    width: 80%;
+    margin: auto;
+    background-image: url(../Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+
+.Latest_Deals_text {
+    text-align: center;
+    padding: 40px;
+}
+
+.Latest_Deals input {
+    width: 420px;
+    height: 40px;
+
+}
+
+/*--------------------------------
+ Latest Deals style  end
+ ---------------------------------  */
+/* footer style   start  */
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 40px;
+
+}
+
+footer h1 {
+    font-size: 50px;
+
+}
+
+footer small {
+    margin-top: 20px;
+    color: gray;
+}
+
+/* footer style end  */
