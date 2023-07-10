@@ -146,3 +146,45 @@ featured_flowers style  end
 }
 
 /* our Support style  end   */
+/*----------------------
+ Hot Deal style  start 
+ -------------------*/
+.hot_deal {
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e6f3f4;
+
+}
+
+.hot_deal_info {
+    margin-left: 200px;
+    text-align: center;
+
+
+}
+
+.hot_deal_info h1 {
+    font-size: xx-large;
+    font-style: bolder;
+}
+
+.off_color {
+    color: red;
+}
+
+.hot_deal_info>button {
+    margin-top: 30px;
+}
+
+.hot_deal>img {
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+/* -----------------
+ Hot Deal style end
+ -------------------  */
