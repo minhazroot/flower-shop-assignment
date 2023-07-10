@@ -146,6 +146,49 @@ featured_flowers style  end
 }
 
 /* our Support style  end   */
+
+
+/* glary section  style start   */
+.glary_section>h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+
+.glarys_images {
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    padding: 20px;
+    background-image: url(../glary_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.glary_img {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 10px;
+
+
+
+}
+
+.glary_img img {
+    /* padding: 25px; */
+    height: 230px;
+    width: 250px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+/* glary section  style end   */
 /*----------------------
  Hot Deal style  start 
  -------------------*/
