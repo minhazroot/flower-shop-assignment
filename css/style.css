@@ -1,6 +1,7 @@
 * {
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
+
 }
 
 /* google font  */
@@ -24,7 +25,6 @@ body {
 .banner_info {
     display: flex;
     flex-direction: column;
-
     justify-content: center;
 }
 
@@ -48,6 +48,11 @@ body {
     border-radius: 5px;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.button_sty a {
+    text-decoration: none;
     color: white;
 }
 
@@ -58,6 +63,8 @@ body {
 }
 
 /* end  header section  style  */
+
+
 /*------------------------------
 featured_flowers style  start
 ---------------------------------   */
@@ -126,6 +133,8 @@ p {
 /*-------------------------------------
 featured_flowers style  end  
 ---------------------------------------- */
+
+
 /* our Support style  start   */
 .supports {
     height: 300px;
@@ -161,7 +170,8 @@ featured_flowers style  end
     margin: auto;
     height: 100vh;
     padding: 20px;
-    background-image: url(../glary_bg.jpg);
+    background-image: url(../glary_bg.jpg), linear-gradient(rgba(232, 224, 224, 0.74), rgba(0, 0, 0, 0.584));
+    background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -189,6 +199,8 @@ featured_flowers style  end
 }
 
 /* glary section  style end   */
+
+
 /*----------------------
  Hot Deal style  start 
  -------------------*/
@@ -231,6 +243,8 @@ featured_flowers style  end
 /* -----------------
  Hot Deal style end
  -------------------  */
+
+
 /* Instagram style  start  */
 .Instagram_all {
     text-align: center;
@@ -257,6 +271,7 @@ featured_flowers style  end
 }
 
 /* Instagram style  END  */
+
 
 /*----------------------------
  Latest Deals style  start
@@ -293,18 +308,20 @@ featured_flowers style  end
 /*--------------------------------
  Latest Deals style  end
  ---------------------------------  */
+
+
 /* footer style   start  */
 footer {
     height: 200px;
     width: 100%;
     background-color: black;
-    text-align: center;
+
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+
     margin-top: 40px;
 
 }
